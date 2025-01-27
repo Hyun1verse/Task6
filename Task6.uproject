@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.5",
+	"EngineAssociation": "{9C34EBF9-4149-FA7B-CCEC-B194A8229497}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "Task6",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
