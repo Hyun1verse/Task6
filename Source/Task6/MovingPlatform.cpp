@@ -4,7 +4,7 @@ AMovingPlatform::AMovingPlatform()
 {
  	PrimaryActorTick.bCanEverTick = true;
 
-	// 메쉬 컴포넌트 생성
+	// 메시 컴포넌트 생성
 	MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComponent"));
 	RootComponent = MeshComponent;
 

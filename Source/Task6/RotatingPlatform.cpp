@@ -5,7 +5,7 @@ ARotatingPlatform::ARotatingPlatform()
 	// Tick 함수 활성화
  	PrimaryActorTick.bCanEverTick = true;
 
-	// 메쉬 컴포넌트 생성 및 루트 컴포넌트로 설정
+	// 메시 컴포넌트 생성 및 루트 컴포넌트로 설정
 	MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComponent"));
 	RootComponent = MeshComponent;
 

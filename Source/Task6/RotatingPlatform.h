@@ -13,7 +13,7 @@ public:
 	ARotatingPlatform();
 
 protected:
-	// 메쉬 컴포넌트
+	// 메시 컴포넌트
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	UStaticMeshComponent* MeshComponent;
 	
